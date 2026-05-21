@@ -1,0 +1,12 @@
+# Ignore artifacts:
+# Build
+build
+
+# Coverage
+coverage
+
+# Node
+node_modules
+
+# Env Files
+.env
