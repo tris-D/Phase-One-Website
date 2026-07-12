@@ -22,6 +22,9 @@ app.use(
   helmet({
     contentSecurityPolicy: false,
     crossOriginEmbedderPolicy: false,
+    referrerPolicy: {
+      policy: "strict-origin-when-cross-origin",
+    },
   })
 );
 // basic configurations of express
