@@ -16,7 +16,12 @@ const loggingMiddleware = morgan(
     }, {
     stream: {
         write: (message) => {
-            logger.http(JSON.parse(message));
+            const data = JSON.parse(message);
+            // Pass a readable string as the log message, with the parsed fields as metadata.
+            logger.http(
+                `${data.method} ${data.url} ${data.status} ${data.responseTime}ms - ${data.ip}`,
+                data
+            );
         }
     }
 });

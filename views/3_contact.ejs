@@ -1,75 +1,5 @@
-<!-- ============================================-->
-<!-- Top-Oriented Nav Bar Header ==================================-->
-<!DOCTYPE html>
-<html class="has-sidemenu has-fancynav-top" lang="en-US" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <!-- ===============================================-->
-  <!--    Document Title-->
-  <!-- ===============================================-->
-  <title>Phase 1 | One Goal, One Purpose</title>
-
-
-  <!-- ===============================================-->
-  <!--    Favicons-->
-  <!-- ===============================================-->
-  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png">
-  <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicons/favicon.ico">
-  <link rel="manifest" href="../assets/img/favicons/manifest.json">
-  <meta name="msapplication-TileImage" content="../assets/img/favicons/mstile-150x150.png">
-  <meta name="theme-color" content="#ffffff">
-
-
-  <!-- ===============================================-->
-  <!--    Stylesheets-->
-  <!-- ===============================================-->
-  <link href="../vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="../vendors/loaders.css/loaders.min.css" rel="stylesheet" type="text/css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900" rel="stylesheet">
-  <link href="../assets/css/theme.css" rel="stylesheet" />
-  <link href="../assets/css/user.css" rel="stylesheet" />
-
-</head>
-<!-- ============================================-->
-<!-- End of Preloader ===========================-->
-
-<!-- ============================================-->
-<!-- Top-Oriented Nav Bar ==================================-->
-<nav class="fancynavbar fancynavbar-expand-lg fancynavbar-top" data-zanim-lg='{"from":{"opacity":1,"x":70},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-xs='{"from":{"opacity":1,"y":-37},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-trigger="scroll" data-exclusive="true">
-  <div class="fancynavbar-togglerbar"><a class="fancynavbar-brand" href="/"><img class="fancynavbar-brand-img" src="../assets/img/icons/navbar_logo.svg" alt="" width="30" height="30" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll" />
-
-      <!--You can use icon or text logo as well-->
-      <!--<span class='fab fa-superpowers fs-6'></span>-->
-      <!--<span class='logo-sparrow'>S</span>-->
-    </a>
-    <div class="fancynavbar-toggler">
-      <svg class="fancynavbar-toggler-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.5}' data-zanim-trigger="scroll">
-        <path id="path-top" d="M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8"></path>
-        <path id="path-middle" d="M20,32h30"></path>
-        <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0"></path>
-      </svg>
-    </div>
-    <div class="fancynavbar-addon fancynavbar-addon-height" data-zanim-lg='{"from":{"opacity":1,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll">
-    </div>
-  </div>
-  <div class="fancynavbar-collapse">
-    <ul class="fancynavbar-nav">
-      <li class="fancynav-item"><a class="fancynav-link" href="/"><span class="fancynav-link-content">Home</span></a></li>
-      <li class="fancynav-item"><a class="fancynav-link" href="/about"><span class="fancynav-link-content">About Us</span></a></li>
-      <li class="fancynav-item"><a class="fancynav-link" href="/events"><span class="fancynav-link-content">Events</span></a></li>
-      <li class="fancynav-item"><a class="fancynav-link" href="/programs"><span class="fancynav-link-content">Programs</span></a></li>
-      <li class="fancynav-item"><a class="fancynav-link" href="/contact"><span class="fancynav-link-content">Contact</span></a></li>
-    </ul>
-  </div>
-</nav>
+<%- include("0_header.ejs") %>
+<%- include("0_nav.ejs") %>
 
 
 <!-- ===============================================-->
@@ -100,16 +30,16 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6 bg-body pt-8 pb-4">
+        <div class="col-lg-6 bg-body pt-8 pb-6">
           <div class="row h-100 flex-center">
             <div class="col-lg-8" data-zanim-lg='{"animation":"slide-left","delay":0.6}' data-zanim-trigger="scroll">
               <h1 class="text-decoration-underline d-inline-block mb-4 mb-lg-6">contact.</h1>
               <p class="fw-bold mb-0">Main Office:<span class="ms-2 fw-normal">Brittania Woods Community House<br />115 Ritchie St Unit #9 - Ottawa, ON K2B 6E8</span></p>
               <p class="fw-bold mb-0">2026 Classes:<span class="ms-2 fw-normal">Maison de la Francophonie d'Ottawa<br />2720 Richmond Road - Ottawa, ON K2B 6S2</span></p>
               <p class="fw-bold mb-0">Phone:<span class="ms-2 fw-normal"><a class="text-body" href="tel:+16136974868">+1 (613) 697-4868</a></span></p>
-              <p class="fw-bold mb-4">E-mail:<span class="ms-2 fw-normal fst-italic"><a class="text-body" href="phase1programs@gmail.com">phase1programs@gmail.com</a></span></p>
+              <p class="fw-bold mb-4">E-mail:<span class="ms-2 fw-normal fst-italic"><a class="text-body" href="mailto:phase1programs@gmail.com">phase1programs@gmail.com</a></span></p>
               <div class="mt-3"><a class="btn btn-dark btn-sm me-2" href="https://www.facebook.com/profile.php?id=61591817481705" target="_blank"><span class="fab fa-facebook-f" data-fa-transform="grow-6"></span></a><a class="btn btn-dark btn-sm me-2" href="https://www.youtube.com/channel/UC2IsoxNoegFDvPntwqUNTzA" target="_blank"><span class="fab fa-youtube" data-fa-transform="grow-6"></span></a><a class="btn btn-dark btn-sm me-2" href="https://www.linkedin.com/company/133395818/" target="_blank"><span class="fab fa-linkedin-in" data-fa-transform="grow-6"></span></a><a class="btn btn-dark btn-sm" href="https://www.instagram.com/phase1ottawa/" target="_blank"><span class="fab fa-instagram" data-fa-transform="grow-6"></span></a></div>
-              <h3 class="mt-7">Give us a shout</h3>
+              <h3 class="mt-5">Give us a shout</h3>
               <% if (typeof success !== "undefined" && success) { %>
                 <div class="alert alert-success mt-3" role="alert"><%= success %></div>
               <% } %>
@@ -120,7 +50,12 @@
                 <input class="form-control" type="text" name="name" placeholder="Your Name" aria-label="Your name" required />
                 <input class="form-control mt-3" type="email" name="email" placeholder="Your Email" aria-label="Your email" required />
                 <input class="form-control mt-3" type="text" name="phone" placeholder="Phone Number" aria-label="Phone number" />
-                <textarea class="form-control mt-3" name="message" rows="11" placeholder="Your Message" aria-label="Your message" required></textarea>
+                <textarea class="form-control mt-3" name="message" rows="7" placeholder="Your Message" aria-label="Your message" required></textarea>
+                <!-- Honeypot: hidden from real users, bots tend to fill it. Do not remove. -->
+                <div style="position:absolute; left:-9999px; top:-9999px;" aria-hidden="true">
+                  <label for="website">Leave this field empty</label>
+                  <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+                </div>
                 <div class="d-grid">
                   <button class="btn btn-block btn-dark mt-4" id="contactSubmitBtn" type="submit"><span class="contact-submit-label">Send<span class="fa fa-paper-plane ms-1"></span></span><span class="contact-submit-loading d-none">Sending<span class="fa fa-spinner fa-spin ms-2"></span></span></button>
                 </div>
@@ -130,14 +65,9 @@
         </div>
         <div class="col-lg-6 px-0">
           <div class="sticky-top overflow-hidden-y">
-            <div class="googlemap min-vh-100 d-none d-lg-block" data-gmap="data-gmap" data-latlng="45.35890120185134,-75.79356392879784" data-pov='{"heading":120,"pitch":0}' data-scrollwheel="false" data-icon="assets/images/map-marker.png" data-zoom="1" data-theme="streetview" data-zanim-lg='{"animation":"zoom-out-slide-left","delay":0.4}' data-zanim-trigger="scroll"></div>
-            <!--Mobile Fallback-->
-            <div class="googlemap min-vh-50 d-lg-none" data-gmap="data-gmap" data-latlng="45.35890120185134,-75.79356392879784" data-pov='{"heading":75,"pitch":0}' data-scrollwheel="false" data-icon="../assets/img/map-marker.png" data-zoom="17" data-theme="Default">
-              <div class="marker-content py-3">
-                <h5>Maison de la Francophonie d'Ottawa</h5>
-                <p>Location for classes for the year 2026 with Phase 1,<br />up for change as we search for permanent rental space.</p>
-              </div>
-            </div>
+            <iframe class="w-100 min-vh-100 d-none d-lg-block" style="border:0;" src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sca!4v1783876113912!5m2!1sen!2sca!6m8!1m7!1sMsmgLsJlCbvyUbE0o0otBA!2m2!1d45.35890120185134!2d-75.79356392879784!3f115.94552!4f0!5f0.7820865974627469" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Phase 1 location map"></iframe>
+            <!-- Mobile map -->
+            <iframe class="w-100 min-vh-50 d-lg-none" style="border:0;" src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sca!4v1783876113912!5m2!1sen!2sca!6m8!1m7!1sMsmgLsJlCbvyUbE0o0otBA!2m2!1d45.35890120185134!2d-75.79356392879784!3f115.94552!4f0!5f0.7820865974627469" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Phase 1 location map"></iframe>
           </div>
         </div>
       </div>
