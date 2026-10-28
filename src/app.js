@@ -43,7 +43,7 @@ app.get("/", (req, res) => {
   res.render("1_index.ejs", {
     title: "Phase 1 | One Goal, One Purpose",
     description:
-      "Phase 1 is an Ottawa-based nonprofit empowering youth through mentorship, education, and community programs.",
+      "Phase 1 is an Ottawa-based nonprofit empowering Black youth through mentorship, education, and community programs.",
   });
 });
 
@@ -51,7 +51,7 @@ app.get("/about", (req, res) => {
   res.render("2_about.ejs", {
     title: "About Us | Phase 1",
     description:
-      "Learn about Phase 1's mission, team, and community impact supporting youth in Ottawa.",
+      "Learn about Phase 1's mission, team, and community impact supporting Black youth in Ottawa.",
   });
 });
 
@@ -69,7 +69,7 @@ app.get("/programs", (req, res) => {
   res.render("5_programs.ejs", {
     title: "Programs | Phase 1",
     description:
-      "Explore the programs Phase 1 offers to support and empower youth across Ottawa.",
+      "Explore the programs Phase 1 offers to support and empower Black youth across Ottawa.",
   });
 });
 
